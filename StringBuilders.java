@@ -8,6 +8,7 @@ class StringBuilders {
         StringBuilders obj = new StringBuilders();
         // String Builder object
         StringBuilder sb = new StringBuilder("Hi");
+        // using append function to add new string
         sb.append(" Whats up");
         String str = sb.toString();
         System.out.println(str);
