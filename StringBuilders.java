@@ -10,6 +10,7 @@ class StringBuilders {
         StringBuilder sb = new StringBuilder("Hi");
         // using append function to add new string
         sb.append(" Whats up");
+        // Convert into string
         String str = sb.toString();
         System.out.println(str);
         sb.reverse();
