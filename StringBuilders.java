@@ -6,7 +6,7 @@ class StringBuilders {
     public static void main(String[] args) {
         
         StringBuilders obj = new StringBuilders();
-
+        // String Builder object
         StringBuilder sb = new StringBuilder("Hi");
         sb.append(" Whats up");
         String str = sb.toString();
